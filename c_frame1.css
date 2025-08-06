@@ -1,0 +1,195 @@
+/* Umum */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+h1, h2, h3, h4, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1976d2;
+  padding: 10px 20px;
+  color: white;
+}
+
+.navbar .logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .logo img {
+  margin-right: 10px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Banner */
+.banner {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 20px;
+  background-color: #e3f2fd;
+}
+
+.main-banner {
+  flex: 2;
+  position: relative;
+}
+
+.main-banner img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.banner-caption {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  background-color: rgba(0,0,0,0.6);
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.side-banner {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.side-banner img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Layanan Daerah */
+.layanan-daerah {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.layanan-icons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.layanan-icons .item {
+  text-align: center;
+}
+
+.layanan-icons img {
+  width: 80px;
+  height: auto;
+}
+
+/* Statistik */
+.statistik {
+  display: flex;
+  justify-content: space-around;
+  background-color: #dce775;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.statistik .stat h3 {
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+
+/* Edukasi */
+.edukasi {
+  padding: 40px 20px;
+  background-color: #fffde7;
+}
+
+.edukasi h2 {
+  margin-bottom: 20px;
+}
+
+.berita {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.berita article {
+  width: 300px;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding-bottom: 10px;
+}
+
+.berita img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+/* Layanan Cepat */
+.layanan-cepat {
+  padding: 40px 20px;
+  background-color: #e0f7fa;
+  text-align: center;
+}
+
+.portal-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.portal-item {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.portal-item img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #1976d2;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+}
